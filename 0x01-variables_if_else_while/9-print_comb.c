@@ -13,11 +13,17 @@ int main(void)
 	for (p = 0; p < 10; p++)
 	{
 		putchar((p % 10) + '0');
+
+		if (p == 9)
+		{
+			continue;
+		}
+
 		putchar(',');
         	putchar(' ');
 	}
 	
-	putchar('\n');
+i	putchar('\n');
 
 	return (0);
 }
