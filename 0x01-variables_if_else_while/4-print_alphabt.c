@@ -14,14 +14,14 @@ int main(void)
 	{
 		if (lower == 'q')
 		{
-       			continue;
+			continue;
 		}
 
 		if (lower == 'e')
 		{
 			continue;
 		}
-        
+        	
 		putchar(lower);
 	}
 
