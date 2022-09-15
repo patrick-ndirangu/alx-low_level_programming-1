@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	for (n = 48; n < 57; n++) /* ASCII values for 0 and 9 respectively */
 	{
-		if(n == 50 || n == 52) /* ASCII values for 2 and 4 respectively */
+		if (n == 50 || n == 52) /* ASCII values for 2 and 4 respectively */
 		{
 			continue;
 		}
