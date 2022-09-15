@@ -3,7 +3,7 @@
 /**
  * more_numbers - prints from 0 to 14
  *
- * Return: void
+ * Return: Always 0 (Success)
  */
 void more_numbers(void)
 {
@@ -12,14 +12,16 @@ void more_numbers(void)
 	
 	for (x = 0; x <= 10; x++)
 	{
-		for (y = 0; y < 15; y++)
+		for (y = 0; y <= 14; y++)
 		{
 			if ((y / 10) != 0)
 			{
 				_putchar((y / 10) + '0');
 			}
+
 			_putchar((y % 10) + '0');
 		}
+
 		_putchar('\n');
 	}
 }
