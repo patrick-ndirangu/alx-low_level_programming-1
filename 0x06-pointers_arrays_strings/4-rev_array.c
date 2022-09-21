@@ -3,7 +3,7 @@
 /**
  * reverse_array - reverses the content of array of integers
  * @a: parameter to check
- * : number of elements in array
+ * @n: number of elements in array
  *
  * Return: void
  */
@@ -11,7 +11,7 @@ void reverse_array(int *a, int n)
 {
 	int i;
 	
-	for (i = 0; i < n / 2; i++)
+	for (i = 0; i < n/2; i++)
 	{
 		int temp = a[i];
 		a[i] = a[n - 1 - i];
