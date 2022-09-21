@@ -7,7 +7,7 @@
  * @src: parameter to check
  * @n: number of bytes from src
  *
- * Return: pointer to the resulting string dest
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
