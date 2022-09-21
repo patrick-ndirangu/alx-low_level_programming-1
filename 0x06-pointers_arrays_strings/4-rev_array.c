@@ -3,7 +3,7 @@
 /**
  * reverse_array - reverses the content of array of integers
  * @a: parameter to check
- * @n: number of elements in array
+ * : number of elements in array
  *
  * Return: void
  */
