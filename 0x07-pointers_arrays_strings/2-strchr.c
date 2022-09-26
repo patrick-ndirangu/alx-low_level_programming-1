@@ -6,7 +6,8 @@
  * @s: parameter to check
  * @c: parameter to check
  *
- * Return: p
+ * Return: a pointer to first occurrence of
+ * character c or NULL
  */
 char *_strchr(char *s, char c)
 {
